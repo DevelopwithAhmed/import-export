@@ -1,0 +1,93 @@
+.mango-section {
+  background-color: #E0F2FE; /* Light Blue Background */
+  padding: 50px 10%;
+  border-radius: 10px;
+  text-align: left;
+}
+
+/* Title Styling */
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  color: darkblue;
+  position: relative;
+}
+
+/* Underline */
+.underline {
+  width: 100px;
+  height: 3px;
+  background-color: darkblue;
+  margin: 10px auto;
+}
+
+/* Introduction */
+.mango-intro {
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Growing Section */
+.mango-grow, .mango-benefits {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.mango-grow h2, .mango-benefits h2 {
+  font-size: 24px;
+  color: #457B9D; /* Medium Blue */
+  margin-bottom: 15px;
+}
+
+.mango-grow p, .mango-benefits p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* List Styling */
+.mango-benefits ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.mango-benefits ul li {
+  font-size: 16px;
+  color: #333;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.mango-benefits ul li strong {
+  color: #2D6A4F; /* Dark Green */
+  margin-right: 5px;
+}
+
+/* Images Styling */
+.mango-grow img, .mango-benefits img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mango-section {
+    padding: 30px 5%;
+  }
+
+  .mango-grow, .mango-benefits {
+    padding: 15px;
+  }
+
+  .mango-grow img, .mango-benefits img {
+    max-height: 200px;
+  }
+}

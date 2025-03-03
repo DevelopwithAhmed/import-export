@@ -1,0 +1,92 @@
+<div class="product-page">
+  <h1 class="main-title">Our Products</h1>
+  <div class="underline"></div>
+  <p class="description">
+    We provide premium-quality products across multiple categories, including fresh fruits, vegetables, meat, and furniture.
+    Our commitment to quality ensures the best for our customers.
+  </p>
+
+  <!-- Fruits Section -->
+  <h2 class="section-title">Fruits</h2>
+  <p class="section-description">We offer fresh, high-quality fruits sourced from the best farms.</p>
+  <div class="product-container">
+    <div class="product-card">
+      <a [routerLink]="['/products/mango']">
+        <img src="assets/mango2.png" alt="Mango">
+        <h3>Mango</h3>
+      </a>
+    </div>
+    <div class="product-card">
+      <a [routerLink]="['/products/orange']">
+        <img src="assets/oranges.jpeg" alt="Orange">
+        <h3>Orange</h3>
+      </a>
+    </div>
+    <div class="product-card">
+      <a [routerLink]="['/products/guava']">
+        <img src="assets/Guava2.jpg" alt="Guava">
+        <h3>Guava</h3>
+      </a>
+    </div>
+  </div>
+
+  <!-- Vegetables Section -->
+  <h2 class="section-title">Vegetables</h2>
+  <p class="section-description">Nutritious vegetables carefully selected for quality and freshness.</p>
+  <div class="product-container">
+    <div class="product-card">
+      <a [routerLink]="['/products/onion']">
+        <img src="assets/onion1.jpg" alt="Carrot">
+        <h3>onion</h3>
+      </a>
+    </div>
+    <div class="product-card">
+      <a [routerLink]="['/products/potato']">
+        <img src="assets/potatos1.jpg" alt="Potato">
+        <h3>Potato</h3>
+      </a>
+    </div>
+    <div class="product-card">
+      <a [routerLink]="['/products/corn']">
+        <img src="assets/corns1.jpg" alt="Tomato">
+        <h3>corns</h3>
+      </a>
+    </div>
+  </div>
+
+  <!-- Meat Section -->
+  <h2 class="section-title">Meat</h2>
+  <p class="section-description">We ensure safe, hygienic, and fresh meat products.</p>
+  <div class="product-container">
+    <div class="product-card">
+      <a [routerLink]="['/products/mutton']">
+      <img src="assets/meat2.jpeg" alt="Chicken">
+        <h3>Mutton</h3>
+      </a>
+      </div>
+    <div class="product-card">
+      <a [routerLink]="['/products/beef']">
+        <img src="assets/meat1.jpeg" alt="Beef">
+        <h3>Beef</h3>
+      </a>
+    </div>
+  </div>
+
+  <!-- Furniture Section -->
+  <h2 class="section-title">Furniture</h2>
+  <p class="section-description">Elegant and durable furniture for homes and offices.</p>
+  <div class="product-container">
+    <div class="product-card">
+      <a [routerLink]="['/products/bedroom']">
+        <img src="assets/grand-bed1.webp" alt="bedroom">
+        <h3>Bedroom</h3>
+      </a>
+    </div>
+    <div class="product-card">
+      <a [routerLink]="['/products/kitchen']">
+        <img src="assets/kitchen furniture.png" alt="Table">
+        <h3>kitchen</h3>
+      </a>
+    </div>
+  </div>
+</div>

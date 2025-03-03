@@ -1,0 +1,43 @@
+.meat-section {
+  background-color: #FDEDEC;
+  padding: 50px 10%;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.section-title {
+  color: #000;
+  font-size: 28px;
+  text-align: center;
+  position: relative;
+}
+
+.underline {
+  width: 100px;
+  height: 3px;
+  background: darkblue;
+  margin: 10px auto;
+}
+
+.meat-image {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+h2 {
+  color: darkred;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 18px;
+  margin: 5px 0;
+}

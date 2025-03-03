@@ -1,0 +1,61 @@
+.corn-section {
+  background-color: #FFF8DC;
+  padding: 50px 10%;
+  border-radius: 10px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+
+/* Title Styling */
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  color: darkgoldenrod;
+  position: relative;
+}
+
+/* Underline */
+.underline {
+  width: 100px;
+  height: 3px;
+  background-color: darkgoldenrod;
+  margin: 10px auto;
+}
+
+/* Introduction */
+.vegetable-intro {
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Growing Section */
+.vegetable-grow, .vegetable-benefits {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.vegetable-grow h2, .vegetable-benefits h2 {
+  font-size: 24px;
+  color: #b8860b;
+  margin-bottom: 15px;
+}
+
+.vegetable-grow img, .vegetable-benefits img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .corn-section {
+    padding: 30px 5%;
+  }
+}

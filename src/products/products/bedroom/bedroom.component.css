@@ -1,0 +1,60 @@
+.bedroom-section {
+  background-color: #F5F5DC; /* Light Beige */
+  padding: 50px 10%;
+  border-radius: 10px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+/* Title Styling */
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  color: darkslategray;
+  position: relative;
+}
+
+/* Underline */
+.underline {
+  width: 100px;
+  height: 3px;
+  background-color: darkslategray;
+  margin: 10px auto;
+}
+
+/* Introduction */
+.furniture-intro {
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Furniture Details */
+.furniture-design, .furniture-benefits {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.furniture-design h2, .furniture-benefits h2 {
+  font-size: 24px;
+  color: darkslategray;
+  margin-bottom: 15px;
+}
+
+.furniture-design img, .furniture-benefits img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .bedroom-section {
+    padding: 30px 5%;
+  }
+}

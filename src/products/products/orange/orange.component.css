@@ -1,0 +1,61 @@
+.orange-section {
+  background-color: #FFEFD5; /* Light Peach */
+  padding: 50px 10%;
+  border-radius: 10px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+/* Title Styling */
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  color: darkorange;
+  position: relative;
+}
+
+/* Underline */
+.underline {
+  width: 100px;
+  height: 3px;
+  background-color: darkorange;
+  margin: 10px auto;
+}
+
+/* Introduction */
+.fruit-intro {
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Growing Section */
+.fruit-grow, .fruit-benefits {
+  background-color: #fff5e6; /* Light Orange */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.fruit-grow h2, .fruit-benefits h2 {
+  font-size: 24px;
+  color: #FF8C00; /* Dark Orange */
+  margin-bottom: 15px;
+}
+
+.fruit-grow img, .fruit-benefits img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .orange-section {
+    padding: 30px 5%;
+  }
+}
