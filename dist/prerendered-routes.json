@@ -1,0 +1,19 @@
+{
+  "routes": {
+    "/": {},
+    "/about": {},
+    "/contact": {},
+    "/products": {},
+    "/products/bedroom": {},
+    "/products/beef": {},
+    "/products/corn": {},
+    "/products/guava": {},
+    "/products/kitchen": {},
+    "/products/mango": {},
+    "/products/mutton": {},
+    "/products/onion": {},
+    "/products/orange": {},
+    "/products/potato": {},
+    "/services": {}
+  }
+}
